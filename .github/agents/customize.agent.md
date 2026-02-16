@@ -350,8 +350,8 @@ In `_sass/_themes.scss`:
 ```scss
 // Change from purple to blue
 :root {
-  --global-theme-color: #{$blue-color};
-  --global-theme-color-dark: #{$blue-color-dark};
+  --global-theme-color: #{$black-color};
+  --global-theme-color-dark: #{$white-dark};
 }
 ```
 
