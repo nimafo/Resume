@@ -439,13 +439,6 @@ ninja.data = [{
           window.open("mailto:%66%6F%72%6F%75%7A%61%6E%64%65%68.%6E%69%6D%61@%67%6D%61%69%6C.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
-        section: 'Socials',
-        handler: () => {
-          window.open("https://scholar.google.com/citations?user=s9OMZaQAAAAJ", "_blank");
-        },
-      },{
         id: 'social-researchgate',
         title: 'Researchgate',
         section: 'Socials',
@@ -465,6 +458,13 @@ ninja.data = [{
         section: 'Socials',
         handler: () => {
           window.open("https://www.linkedin.com/in/nimaforouzandeh/", "_blank");
+        },
+      },{
+        id: 'social-googlescholar',
+        title: 'Googlescholar',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://scholar.google.com/citations?user=s9OMZaQAAAAJ&hl=en", "_blank");
         },
       },{
       id: 'light-theme',
