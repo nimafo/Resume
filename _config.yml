@@ -17,8 +17,7 @@ keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your o
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: 🔆 # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: "https://nimafo.github.io" # the base hostname & protoa post with plotly.js
-ol for your site
+url: "https://nimafo.github.io" # the base hostname & protoa post with plotly.jsol for your site
 baseurl: "/Resume" # the subpath of your site, e.g. /blog/. Leave blank for root
 repository: "nimafo/Resume"
 
