@@ -460,6 +460,13 @@ ninja.data = [{
           window.open("https://orcid.org/my-orcid?orcid=0000-0001-7025-5509", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'Linkedin',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/nimaforouzandeh/", "_blank");
+        },
+      },{
       id: 'light-theme',
       title: 'Change theme to light',
       description: 'Change the theme of the site to Light',
