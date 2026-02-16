@@ -7,8 +7,8 @@ scholar_userid: s9OMZaQAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
 researchgate: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://help.researchgate.net/hc/article_attachments/17825143633297
-  title: Research Gate
+  logo: https://upload.wikimedia.org/wikipedia/commons/5/5e/ResearchGate_icon_SVG.svg
+  title: ResearchGate
   url: https://www.researchgate.net/profile/Nima-Forouzandeh-2?ev=hdr_xprf
 
 orcid:
