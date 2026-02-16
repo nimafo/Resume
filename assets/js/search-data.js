@@ -444,9 +444,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-high-performance-building-design",
+          title: 'High performance building design',
+          description: "Integrated environmental design, simulation, and optimisation workflow",
           section: "Projects",handler: () => {
               window.location.href = "/Resume/projects/1_project/";
             },},{id: "teachings-data-science-fundamentals",
