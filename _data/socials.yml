@@ -6,12 +6,12 @@ email: forouzandeh.nima@gmail.com # your email address
 scholar_userid: s9OMZaQAAAAJ # your Google Scholar ID
 # wechat_qr: # filename of your wechat qr-code saved as an image (e.g., wechat-qr.png if saved to assets/img/wechat-qr.png)
 # whatsapp_number: # your WhatsApp number (full phone number in international format. Omit any zeroes, brackets, or dashes when adding the phone number in international format.)
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+researchgate: # can be any name here other than the ones already defined in the jekyll-socials plugin
   logo: https://help.researchgate.net/hc/article_attachments/17825143633297
   title: Research Gate
   url: https://www.researchgate.net/profile/Nima-Forouzandeh-2?ev=hdr_xprf
 
-custom_social:
+orcid:
   logo: https://info.orcid.org/wp-content/uploads/2021/12/orcid_16x16.gif
   title: ORCID
   url: https://orcid.org/my-orcid?orcid=0000-0001-7025-5509
