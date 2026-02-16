@@ -6,7 +6,7 @@ nav: true
 nav_order: 5
 cv_pdf: ""
 cv_format: rendercv # options: rendercv, jsonresume
-description:""
+description: ""
 toc:
   sidebar: left
 ---
