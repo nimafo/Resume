@@ -8,9 +8,7 @@ category: work
 related_publications: false
 ---
 
-This project explores an integrated workflow for **high-performance building design**, combining
-climate-based daylight modelling, energy considerations, and material-aware environmental simulation.
-The focus is on linking design decisions to measurable performance outcomes through physically based modelling.
+This is a report from the master design course on high performance design of a student center in Tehran, Iran. The project focuses on the integration of environmental design principles and simulation techniques to achieve a high-performance building that meets the specific climatic and contextual requirements of the site. The report includes analyses of daylighting, thermal performance, and energy efficiency, as well as the application of advanced simulation tools to inform design decisions and optimise building performance. 
 
 <hr>
 
@@ -34,11 +32,3 @@ The focus is on linking design decisions to measurable performance outcomes thro
     </p>
   </div>
 </div>
-
-<h2>Key Aspects</h2>
-
-- Climate-based daylight modelling (CBDM)
-- Physically based material characterisation
-- Simulation-driven design validation
-- Integration of geometric fidelity and performance metrics
-- Workflow bridging architectural design and environmental engineering
