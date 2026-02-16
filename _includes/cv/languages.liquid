@@ -1,28 +1,33 @@
 {% comment %}
-  Unified languages entry renderer for both formats
-  - RenderCV uses: name, summary
-  - JSONResume uses: language, fluency
+  Languages renderer (customised)
+  Supports:
+  - RenderCV: name, summary
+  - JSONResume: language, fluency
 {% endcomment %}
 
 <div class="card-text font-weight-light">
-  {% for entry in entries %}
-    <div class="language-item">
-      {% if entry.icon %}
-        <i class="{{ entry.icon }}"></i>
-      {% endif %}
-      {% capture lang_name %}
-        {% if entry.name %}{{ entry.name }}{% elsif entry.language %}{{ entry.language }}{% endif %}
-      {% endcapture %}
-      {% capture fluency %}
-        {% if entry.summary %}{{ entry.summary }}{% elsif entry.fluency %}{{ entry.fluency }}{% endif %}
-      {% endcapture %}
-      <strong>{{ lang_name }}:</strong> {{ fluency }}
-    </div>
-  {% endfor %}
+  {% if entries and entries.size > 0 %}
+    {% for entry in entries %}
+      <div class="language-item">
+        {% capture lang_name %}
+          {% if entry.name %}{{ entry.name }}{% elsif entry.language %}{{ entry.language }}{% endif %}
+        {% endcapture %}
+        {% capture fluency %}
+          {% if entry.summary %}{{ entry.summary }}{% elsif entry.fluency %}{{ entry.fluency }}{% endif %}
+        {% endcapture %}
+        <strong>{{ lang_name }}:</strong> {{ fluency }}
+      </div>
+    {% endfor %}
+  {% else %}
+      <div class="language-item"><strong>Persian:</strong> Native</div>
+      <div class="language-item"><strong>English:</strong> Fluent (TOEFL iBT 109, 2020)</div>
+      <div class="language-item"><strong>Dutch:</strong> Intermediate</div>
+      <div class="language-item"><strong>Arabic:</strong> Basic</div>
+  {% endif %}
 </div>
 
 <style>
   .language-item {
-    padding: 0.5rem 0;
+    padding: 0.35rem 0;
   }
 </style>
