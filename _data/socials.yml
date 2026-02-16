@@ -12,6 +12,6 @@ researchgate: # can be any name here other than the ones already defined in the 
   url: https://www.researchgate.net/profile/Nima-Forouzandeh-2?ev=hdr_xprf
 
 orcid:
-  logo: https://info.orcid.org/wp-content/uploads/2021/12/orcid_16x16.gif
+  logo: https://orcid.org/assets/vectors/orcid.logo.svg
   title: ORCID
   url: https://orcid.org/my-orcid?orcid=0000-0001-7025-5509
