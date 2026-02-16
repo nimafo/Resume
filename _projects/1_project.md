@@ -1,28 +1,20 @@
 ---
 layout: page
-title: project 1
-description: with background image
+title: High performance building design
+description: Integrated environmental design, simulation, and optimisation workflow
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+This project explores an integrated workflow for **high-performance building design**, combining
+climate-based daylight modelling, energy considerations, and material-aware environmental simulation.
+The focus is on linking design decisions to measurable performance outcomes through physically based modelling.
 
 <hr>
-<h2>PDF</h2>
+
+<h2>Project Report</h2>
 
 <div class="row">
   <div class="col-12">
@@ -42,18 +34,46 @@ To give your project a background in the portfolio page, just add the img tag to
     </p>
   </div>
 </div>
+
 <hr>
 
+<h2>Selected Visual Outputs</h2>
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/1.jpg" title="Daylight simulation study" class="img-fluid rounded z-depth-1" %}
   </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/3.jpg" title="Material-driven light distribution" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/5.jpg" title="Environmental performance mapping" class="img-fluid rounded z-depth-1" %}
   </div>
 </div>
-```
 
-{% endraw %}
+<div class="caption">
+  Simulation outputs linking geometry, material definition, and daylight availability.
+</div>
+
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/6.jpg" title="Annual daylight evaluation" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/11.jpg" title="Detail of façade response" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+
+<div class="caption">
+  Coupling architectural form with climate-responsive simulation workflows.
+</div>
+
+<hr>
+
+<h2>Key Aspects</h2>
+
+- Climate-based daylight modelling (CBDM)
+- Physically based material characterisation
+- Simulation-driven design validation
+- Integration of geometric fidelity and performance metrics
+- Workflow bridging architectural design and environmental engineering
