@@ -21,6 +21,10 @@ icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name 
 url: "https://nimafo.github.io" # the base hostname & protocol for your site
 baseurl: "/Resume" # the subpath of your site, e.g. /blog/. Leave blank for root
 repository: "nimafo/Resume"
+
+scholar_url: https://scholar.google.com/citations?hl=en&user=s9OMZaQAAAAJ
+researchgate_url: https://www.researchgate.net/profile/Nima-Forouzandeh-2?ev=hdr_xprf
+
 last_updated: false # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
