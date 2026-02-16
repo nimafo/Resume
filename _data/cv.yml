@@ -51,7 +51,7 @@ sections:
       start_date: 2009
       end_date: 2013
 
-    Experience:
+  Experience:
     - company: Delft University of Technology
       position: Ph.D. Researcher
       location: Delft, The Netherlands
@@ -91,7 +91,7 @@ sections:
       summary: "Intermediate"
 
 
-    Interests:
+  Interests:
     - name: Daylight Simulation
       icon: fa-solid fa-sun
       keywords: "Climate-Based Daylight Modelling, Radiance, Spectral Simulation, Glare Analysis"
@@ -112,8 +112,8 @@ sections:
       icon: fa-solid fa-microchip
       keywords: "On-site Measurement, Calibration, Low-Cost Sensors, Environmental Monitoring"
 
-    Certificates:
-      - name: WELL AP
-        date: 2026-01
-        issuer: IWBI
-        icon: fa-solid fa-location-dot
+  Certificates:
+    - name: WELL AP
+      date: 2026-01
+      issuer: IWBI
+      icon: fa-solid fa-location-dot
