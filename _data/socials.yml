@@ -15,3 +15,8 @@ orcid:
   logo: https://orcid.org/assets/vectors/orcid.logo.svg
   title: ORCID
   url: https://orcid.org/my-orcid?orcid=0000-0001-7025-5509
+
+linkedin:
+  logo: https://cdn-icons-png.flaticon.com/512/174/174857.png
+  title: LinkedIn
+  url: https://www.linkedin.com/in/nimaforouzandeh/
