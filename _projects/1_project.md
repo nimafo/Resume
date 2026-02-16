@@ -2,7 +2,7 @@
 layout: page
 title: High performance building design
 description: Integrated environmental design, simulation, and optimisation workflow
-img: assets/img/12.jpg
+img: assets/img/HPBD1.jpg
 importance: 1
 category: work
 related_publications: false
