@@ -446,8 +446,15 @@ ninja.data = [{
           window.open("https://scholar.google.com/citations?user=s9OMZaQAAAAJ", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-researchgate',
+        title: 'Researchgate',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.researchgate.net/profile/Nima-Forouzandeh-2?ev=hdr_xprf", "_blank");
+        },
+      },{
+        id: 'social-orcid',
+        title: 'Orcid',
         section: 'Socials',
         handler: () => {
           window.open("https://orcid.org/my-orcid?orcid=0000-0001-7025-5509", "_blank");
