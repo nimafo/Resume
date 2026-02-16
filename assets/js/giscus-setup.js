@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "nimafo/R-sum-",
+    "data-repo": "nimafo/Resume",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
