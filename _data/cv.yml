@@ -16,28 +16,41 @@ cv:
 
 
 
-  sections:
-    Education:
-      - institution: Delft University of Technology
-        location: Delft, Netherlands
-        area: Building Physics
-        studyType: PhD
-        start_date: 2021
-        end_date: 2026
-        score: ""
-        courses: ""
-        highlights:
+sections:
+  Education:
+    - institution: Delft University of Technology
+      location: Delft, The Netherlands
+      area: Building Physics
+      studyType: Ph.D.
+      start_date: 2021
+      end_date: 2026
+      highlights:
+        - Inter-disciplinary project between Building Physics and Services and 3DGeoinformation groups.
+        - Visiting period at the University of Toronto focused on on-site spectral measurements for calibrating spectral simulation models.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+    - institution: Shahid Beheshti University
+      location: Tehran, Iran
+      area: Building Physics
+      studyType: M.Sc.
+      start_date: 2018
+      end_date: 2020
+      highlights:
+        - Focused on principles, in-situ measurements, and digital simulation of indoor environmental quality (IEQ).
 
+    - institution: Iran University of Science and Technology
+      location: Tehran, Iran
+      area: Architectural Engineering
+      studyType: B.Sc.
+      start_date: 2013
+      end_date: 2017
+
+    - institution: Ejei High School
+      location: Isfahan, Iran
+      area: Mathematics and Physics
+      studyType: Diploma
+      start_date: 2009
+      end_date: 2013
+      
     Experience:
       - company: Institute for Advanced Study, Princeton University
         position: Professor of Theoretical Physics
