@@ -4,7 +4,7 @@ permalink: /cv/
 title: CV
 nav: false
 nav_order: 5
-cv_yaml: true
+cv_yaml: false
 cv_pdf: ""
 cv_format: rendercv # options: rendercv, jsonresume
 description: ""
