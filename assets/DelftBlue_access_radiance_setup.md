@@ -39,6 +39,7 @@ wget https://radsite.lbl.gov/radiance/dist/rad6R0supp.tar.gz
 
 ```bash
 tar -xzf rad6R0supp.tar.gz
+cp -r ray/src/px/tiff src/px/
 ```
 Then install with:
 ```bash
