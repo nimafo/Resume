@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Indoor 3D reconstruction
-description: Creating simulation-ready 3D models
+description: A software prototype for making simulation-ready 3D surface models
 img: assets/indoor_pointcloud_reconstruction_icon.svg
 importance: 1
 category: work
