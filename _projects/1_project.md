@@ -2,7 +2,7 @@
 layout: page
 title: High performance building design
 description: 
-img: assets/img/high_performance_building_icon_v3.svg
+img: assets/img/high_performance_building_icon_v6.svg
 importance: 1
 category: work
 related_publications: false
