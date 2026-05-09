@@ -14,7 +14,13 @@ related_publications: false
 <h2>Summary</h2>
 
 <p>
-  This project presents a pipeline for reconstructing indoor window geometry from 3D data and turning it into simulation-ready models.
+  This project presents a cross-platform software prototype for reconstructing indoor window geometry from point cloud data data and turning it into simulation-ready surface geometries for daylight simulation.
+</p>
+
+<p>
+  <a href="https://doi-org.tudelft.idm.oclc.org/10.1016/j.buildenv.2025.114045" target="_blank" rel="noopener">
+    Paper
+  </a>
 </p>
 
 <p>
@@ -22,4 +28,3 @@ related_publications: false
     GitHub repository
   </a>
 </p>
-
