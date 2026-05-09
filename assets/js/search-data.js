@@ -61,7 +61,7 @@ ninja.data = [{
               window.location.href = "/Resume/projects/1_project/";
             },},{id: "projects-indoor-3d-reconstruction",
           title: 'Indoor 3D reconstruction',
-          description: "A software prototype for making simulation-ready 3D surface models",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/Resume/projects/2_project/";
             },},{id: "teachings-data-science-fundamentals",
