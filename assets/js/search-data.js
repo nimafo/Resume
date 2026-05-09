@@ -10,7 +10,7 @@ ninja.data = [{
       window.location.href = "/Resume/";
     },
   },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "",
           section: "Navigation",
           handler: () => {
@@ -59,11 +59,6 @@ ninja.data = [{
           description: "Integrated environmental design, simulation, and optimisation workflow",
           section: "Projects",handler: () => {
               window.location.href = "/Resume/projects/1_project/";
-            },},{id: "projects-indoor-3d-reconstruction",
-          title: 'Indoor 3D reconstruction',
-          description: "Scan-to-BIM",
-          section: "Projects",handler: () => {
-              window.location.href = "/Resume/projects/2_PC2RAD/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
