@@ -56,7 +56,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-high-performance-building-design",
           title: 'High performance building design',
-          description: "Integrated environmental design, simulation, and optimisation workflow",
+          description: "",
           section: "Projects",handler: () => {
               window.location.href = "/Resume/projects/1_project/";
             },},{id: "projects-indoor-3d-reconstruction",
