@@ -2,7 +2,7 @@
 layout: page
 title: Indoor 3D reconstruction
 description: 
-img: assets/indoor_pointcloud_reconstruction_icon.svg
+img: assets/img/indoor_pointcloud_reconstruction_icon.svg
 importance: 1
 category: work
 related_publications: false
