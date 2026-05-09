@@ -59,6 +59,11 @@ ninja.data = [{
           description: "Integrated environmental design, simulation, and optimisation workflow",
           section: "Projects",handler: () => {
               window.location.href = "/Resume/projects/1_project/";
+            },},{id: "projects-indoor-3d-reconstruction",
+          title: 'Indoor 3D reconstruction',
+          description: "Creating simulation-ready 3D models",
+          section: "Projects",handler: () => {
+              window.location.href = "/Resume/projects/2_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
