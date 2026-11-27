@@ -14,6 +14,11 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
+  {% if page.timeline %}
+    <div class="row">
+    <div class="col-md-6 order-2 order-md-1">{% include timeline.liquid %}</div>
+    <div class="col-md-6 order-1 order-md-2">
+  {% endif %}
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
