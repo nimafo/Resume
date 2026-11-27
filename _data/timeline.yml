@@ -1,0 +1,267 @@
+# Homepage timeline. Newest/oldest order does not matter.
+# point: date | span: start + end ("now" = ongoing)
+# cat: edu, mile, work, teach, paper, conf, talk, grant, award, sup, cert, other
+# Entries marked  # ~  have an approximate date.
+
+# Education & milestones
+- start: "2009-09-01"  # ~
+  end: "2013-06-30"
+  cat: "edu"
+  text: "High school, Maths & Physics — Shahid Ejei (NODET), Isfahan"
+- date: "2013-08-01"  # ~
+  cat: "award"
+  text: "Top 0.3% in national university entrance exam (of 350,000+)"
+- start: "2013-09-01"  # ~
+  end: "2018-01-31"
+  cat: "edu"
+  text: "BSc Architectural Engineering — Iran University of Science & Technology"
+- date: "2017-09-01"  # ~
+  cat: "award"
+  text: "Ranked among top 10 students, BSc Architecture, IUST"
+- date: "2018-03-01"  # ~
+  cat: "award"
+  text: "Ranked 20th in national Master's entrance exam (of 7,000+)"
+- start: "2018-09-01"  # ~ start
+  end: "2020-09-09"
+  cat: "edu"
+  text: "MSc Energy & Architecture — Shahid Beheshti University"
+- date: "2020-09-09"
+  cat: "mile"
+  text: "MSc defence — AI for thermal comfort & energy prediction (20/20)"
+- date: "2020-09-20"  # ~
+  cat: "award"
+  text: "Ranked 1st, MSc Energy & Architecture, summa cum laude"
+- start: "2020-09-21"
+  end: "2021-05-31"
+  cat: "edu"
+  text: "PhD (unfinished), Dept. of Construction — Shahid Beheshti University"
+- start: "2021-09-01"
+  end: "2026-03-18"
+  cat: "edu"
+  text: "PhD researcher — Architectural Engineering + Technology, TU Delft"
+- date: "2026-03-18"
+  cat: "mile"
+  text: "PhD defence — Modelling Daylight for Existing Indoor Spaces"
+  url: "https://doi.org/10.71690/abe.2026.05"
+
+# Work
+- start: "2014-06-01"  # ~
+  end: "2015-06-30"
+  cat: "work"
+  text: "Architect — Chahar-Baq Nesf-e-Jahan Consultants"
+- start: "2017-06-01"  # ~
+  end: "2018-06-30"
+  cat: "work"
+  text: "Construction supervisor & technical advisor — Tandis-Ara Consultants"
+- start: "2018-01-01"  # ~
+  end: "2018-09-30"
+  cat: "work"
+  text: "Building performance specialist & graphic designer — SEPID Group"
+- start: "2018-10-01"  # ~
+  end: "2020-12-31"
+  cat: "work"
+  text: "Building performance specialist & ML engineer — BSP Group"
+- start: "2026-06-01"
+  end: "now"
+  cat: "work"
+  text: "Postdoctoral researcher & engineer — VELUX and TU Eindhoven"
+
+# Journal papers
+- date: "2020-06-01"  # ~
+  cat: "paper"
+  text: "[Persian] Daylight & visual comfort in a university library — Sofeh"
+- date: "2020-08-01"  # ~
+  cat: "paper"
+  text: "Occupant behaviour & energy retrofit of dormitories — J. Cleaner Production"
+  url: "https://doi.org/10.1016/j.jclepro.2020.123556"
+- date: "2021-04-15"  # ~
+  cat: "paper"
+  text: "Review of web-based building energy analysis apps — J. Cleaner Production"
+  url: "https://doi.org/10.1016/j.jclepro.2021.127251"
+- date: "2022-03-15"  # ~
+  cat: "paper"
+  text: "ML for room energy & thermal comfort in early design — Intelligent Buildings Int."
+  url: "https://doi.org/10.1080/17508975.2022.2049190"
+- date: "2024-01-15"  # ~
+  cat: "paper"
+  text: "Geometrical LoD & material properties in daylight simulation — Energy & Buildings"
+  url: "https://doi.org/10.1016/j.enbuild.2024.113924"
+- date: "2025-11-01"  # ~
+  cat: "paper"
+  text: "Semi-automated indoor geometry reconstruction — Building & Environment"
+  url: "https://doi.org/10.1016/j.buildenv.2025.114045"
+- date: "2026-06-15"  # ~
+  cat: "paper"
+  text: "Geometrical Levels of Detail for indoor daylight — Building & Environment"
+  url: "https://doi.org/10.1016/j.buildenv.2026.115367"
+
+# Conference papers
+- date: "2020-02-01"  # ~
+  cat: "conf"
+  text: "[Persian] Atrium characteristics & thermal behaviour of offices in Tehran"
+- date: "2020-05-01"  # ~
+  cat: "conf"
+  text: "[Persian] Optimal openings for comfort & cross-ventilation — Best Paper Award"
+- date: "2020-05-02"  # ~
+  cat: "conf"
+  text: "[Persian] Review: occupant behaviour & building energy use"
+- date: "2022-07-25"  # ~  add title + URL
+  cat: "conf"
+  text: "COBEE 2022 conference paper, Montréal"
+- date: "2022-09-07"  # ~
+  cat: "conf"
+  text: "Lux Europa 2022: image-based material characterisation with ANNs"
+  url: "https://repository.tudelft.nl/record/uuid:e0298d28-3c66-442b-ba92-8235f732d0ff"
+- date: "2023-09-04"  # ~
+  cat: "conf"
+  text: "Building Simulation 2023 (IBPSA): geometrical resolution & CBDM metrics"
+  url: "https://doi.org/10.26868/25222708.2023.1132"
+
+# Talks
+- date: "2022-08-04"
+  cat: "talk"
+  text: "Radiance Workshop, Toronto — Efficient daylight modelling for existing buildings"
+  url: "https://www.radiance-online.org/community/workshops/2022-toronto-canada/slides/day2/07_Forouzandeh.pdf"
+- date: "2023-09-14"  # ~
+  cat: "talk"
+  text: "Radiance Workshop, Innsbruck"
+- date: "2025-08-28"
+  cat: "talk"
+  text: "Radiance Workshop, EPFL Lausanne — Monitoring daylight (with E. Brembilla)"
+  url: "https://www.radiance-online.org/community/workshops/2025-laussane-switzerland/slides/thursday/06_Brembilla_Monitoring-Daylight.pdf"
+- date: "2026-07-10"  # ~
+  cat: "talk"
+  text: "CIBSE — 3D geometry & material descriptions for accurate CBDM"
+
+# Grants
+- date: "2020-03-01"  # ~
+  cat: "grant"
+  text: "Grant: comprehensive web-based design & evaluation of the built environment — INSF"
+- date: "2020-04-01"  # ~
+  cat: "grant"
+  text: "Grant: thermal & visual comfort evaluation, Faculty of Architecture — SBU"
+- date: "2025-03-01"  # ~
+  cat: "grant"
+  text: "Grant: Open Hardware — open spectral daylight sensing (5k€, Open Science TU Delft)"
+- date: "2026-02-01"  # ~
+  cat: "grant"
+  text: "Grant: Clean Data 4 Clean Weather (50k€, Het Kin Institute)"
+
+# Teaching
+- start: "2017-02-01"  # ~
+  end: "2017-06-30"
+  cat: "teach"
+  text: "TA: Measurement & Recording of Historic Buildings (BSc), IUST"
+- start: "2019-02-01"  # ~
+  end: "2019-06-30"
+  cat: "teach"
+  text: "TA: Environmental Control Systems (BSc), SBU"
+- start: "2020-02-01"  # ~
+  end: "2020-06-30"
+  cat: "teach"
+  text: "TA: Energy & Arch. Design I, Architectural Lighting, Building Energy Simulation (MSc), SBU"
+- start: "2021-09-01"
+  end: "2021-11-15"
+  cat: "teach"
+  text: "Bucky Lab Engineering (Q&A), TU Delft"
+- start: "2022-02-01"
+  end: "2022-04-20"
+  cat: "teach"
+  text: "Technoledge Climate Design, TU Delft"
+- start: "2023-02-01"
+  end: "2023-04-20"
+  cat: "teach"
+  text: "Tutor, Technoledge Climate Design, TU Delft"
+- start: "2023-04-21"
+  end: "2023-06-30"
+  cat: "teach"
+  text: "Tutor climate design, MEGA, TU Delft"
+- start: "2023-09-01"
+  end: "2023-11-15"
+  cat: "teach"
+  text: "Advanced Building Physics & Climate Design (lecture), TU Delft"
+- start: "2023-09-02"
+  end: "2024-06-30"
+  cat: "teach"
+  text: "Explore Lab graduation studio, TU Delft"
+- start: "2024-04-21"
+  end: "2024-06-30"
+  cat: "teach"
+  text: "Tutor climate design, MEGA, TU Delft"
+- start: "2024-09-01"
+  end: "2024-11-15"
+  cat: "teach"
+  text: "Lecturer & tutor, Advanced Building Physics, TU Delft"
+- start: "2025-02-01"
+  end: "2025-04-20"
+  cat: "teach"
+  text: "Tutor, Technoledge Climate Design, TU Delft"
+- start: "2025-09-01"
+  end: "2025-11-15"
+  cat: "teach"
+  text: "Lecturer, Advanced Building Physics, TU Delft"
+- start: "2026-09-01"  # ~
+  end: "2026-11-15"
+  cat: "teach"
+  text: "Capita Selecta Lighting Technology (MSc), TU/e"
+- start: "2026-09-02"  # ~
+  end: "2026-11-15"
+  cat: "teach"
+  text: "Project S design course (BSc), TU/e"
+- start: "2026-09-03"  # ~
+  end: "2026-11-15"
+  cat: "teach"
+  text: "Challenge-Based Learning, Built Environment, TU/e"
+
+# Supervision
+- date: "2024-10-28"
+  cat: "sup"
+  text: "MSc thesis supervision — Maartje Damen, Enlightening cities"
+- date: "2026-06-20"  # ~
+  cat: "sup"
+  text: "MSc thesis supervision — Panteleimon Katsis, Integrative lighting in practice"
+- start: "2026-09-01"  # ~
+  end: "now"
+  cat: "sup"
+  text: "Supervising MSc theses — Twan van der Zaanden, Elena Boyadzhieva, Marina Skempetzi (CBL)"
+# TODO dates: Giorgos Illiopolous, Sarah Edelaar, Thijs Hamilton, Tim Schouws
+
+# Certificates & courses
+- date: "2020-06-01"  # ~
+  cat: "cert"
+  text: "Coursera: Machine Learning; Neural Networks & Deep Learning (Andrew Ng)"
+- date: "2021-03-01"  # ~
+  cat: "cert"
+  text: "Coursera: Data Science in Python, Data Scientist's Toolbox, What is Data Science?"
+- date: "2026-01-30"  # ~
+  cat: "cert"
+  text: "WELL AP accreditation (IWBI)"
+- date: "2026-05-22"
+  cat: "cert"
+  text: "Passed BREEAM NL Introduction test"
+
+# Service, books, misc.
+- date: "2014-05-01"  # ~
+  cat: "other"
+  text: "Executive committee — National Conf. of Contemporary Islamic-Iranian Housing"
+- date: "2014-10-01"  # ~
+  cat: "other"
+  text: "Executive committee — 8th Int. Policy Forum on Urban Growth & Conservation"
+- start: "2015-09-01"  # ~
+  end: "2017-06-30"
+  cat: "other"
+  text: "Senior member, Students Scientific Association, IUST"
+- date: "2016-06-01"  # ~
+  cat: "other"
+  text: "Book contribution: Architectural Hand Sketch training book (Karsa)"
+- date: "2020-07-01"  # ~
+  cat: "other"
+  text: "Book contribution: Iranian Architecture – Typologies (Goljam), 3D drawings"
+- date: "2022-01-01"  # ~
+  cat: "other"
+  text: "Started contributing to Wikipedia"
+- start: "2022-06-01"  # ~
+  end: "2022-08-31"
+  cat: "other"
+  text: "Research visit — Design for Climate & Comfort Lab, University of Toronto"
+# TODO: Bouwfysica media item (date + URL)
