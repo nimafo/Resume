@@ -2,6 +2,11 @@
 layout: default
 ---
 <div class="post">
+  {% if page.timeline %}
+    <div class="row">
+    <div class="col-lg-7 order-2 order-lg-1">{% include timeline.liquid %}</div>
+    <div class="col-lg-5 order-1 order-lg-2">
+  {% endif %}
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
@@ -14,11 +19,6 @@ layout: default
     <p class="desc">{{ page.subtitle }}</p>
   </header>
 
-  {% if page.timeline %}
-    <div class="row">
-    <div class="col-md-6 order-2 order-md-1">{% include timeline.liquid %}</div>
-    <div class="col-md-6 order-1 order-md-2">
-  {% endif %}
   <article>
     {% if page.profile %}
       <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
